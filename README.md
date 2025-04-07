@@ -7,11 +7,11 @@ A simple CLI Todo list application written in PHP.
 - Configure time zone
 
 ## Usage
-``Besh
+```Besh
 php todo.php add "New Task"
 ```
 
 ### Help
-``Besh
+```Besh
 php todo.php"
 ```
