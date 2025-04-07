@@ -64,24 +64,23 @@ switch ($command) {
         break;
 
     default:
-    echo Colors::CYAN . "Available commands:\n" . Colors::RESET;
-
-    echo "  " . Colors::GREEN . "php todo.php add \"Task title\"" . Colors::RESET;
-    echo "        → " . Colors::YELLOW . "Add a new task\n" . Colors::RESET;
+        echo Colors::CYAN . "Available commands:\n" . Colors::RESET;
     
-    echo "  " . Colors::GREEN . "php todo.php list" . Colors::RESET;
-    echo "                    → " . Colors::YELLOW . "Show task list\n" . Colors::RESET;
-    
-    echo "  " . Colors::GREEN . "php todo.php done <id>" . Colors::RESET;
-    echo "               → " . Colors::YELLOW . "Mark task as done\n" . Colors::RESET;
-    
-    echo "  " . Colors::GREEN . "php todo.php delete <id>" . Colors::RESET;
-    echo "             → " . Colors::YELLOW . "Delete a task\n" . Colors::RESET;
-    
-    echo "  " . Colors::GREEN . "php todo.php clear" . Colors::RESET;
-    echo "                   → " . Colors::YELLOW . "Clearing tasks\n" . Colors::RESET;
-    
-    echo "  " . Colors::GREEN . "php todo.php set-timezone <timezone>" . Colors::RESET;
-    echo " → " . Colors::YELLOW . "Set the default timezone " . Colors::CYAN . '(e.g. "Asia/Tehran")' . Colors::RESET . "\n";
-    
+        echo "  " . Colors::GREEN . "php todo.php add \"Task title\"" . Colors::RESET;
+        echo "        → " . Colors::YELLOW . "Add a new task\n" . Colors::RESET;
+        
+        echo "  " . Colors::GREEN . "php todo.php list" . Colors::RESET;
+        echo "                    → " . Colors::YELLOW . "Show task list\n" . Colors::RESET;
+        
+        echo "  " . Colors::GREEN . "php todo.php done <id>" . Colors::RESET;
+        echo "               → " . Colors::YELLOW . "Mark task as done\n" . Colors::RESET;
+        
+        echo "  " . Colors::GREEN . "php todo.php delete <id>" . Colors::RESET;
+        echo "             → " . Colors::YELLOW . "Delete a task\n" . Colors::RESET;
+        
+        echo "  " . Colors::GREEN . "php todo.php clear" . Colors::RESET;
+        echo "                   → " . Colors::YELLOW . "Clearing tasks\n" . Colors::RESET;
+        
+        echo "  " . Colors::GREEN . "php todo.php set-timezone <timezone>" . Colors::RESET;
+        echo " → " . Colors::YELLOW . "Set the default timezone " . Colors::CYAN . '(e.g. "Asia/Tehran")' . Colors::RESET . "\n";
 }
