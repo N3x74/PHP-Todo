@@ -13,5 +13,5 @@ php todo.php add "New Task"
 
 ### Help
 ```Besh
-php todo.php"
+php todo.php
 ```
