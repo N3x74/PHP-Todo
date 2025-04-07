@@ -1,6 +1,6 @@
 # PHP Todo
 
-A simple CLI Todo list application written in PHP.
+A simple and lightweight command-line task manager built with pure PHP — no database required.
 
 ## Features
 - Add, list, delete, and mark tasks
