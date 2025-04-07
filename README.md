@@ -6,7 +6,7 @@ A simple CLI Todo list application written in PHP.
 - Add, list, delete, and mark tasks
 - Configure time zone
 
-## Usage
+## Usage (Example)
 ```Besh
 php todo.php add "New Task"
 ```
